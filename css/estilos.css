@@ -1,0 +1,43 @@
+.navegacion {
+	list-style:none;
+	display:flex;
+	gap:5%;
+}
+
+ul li a {text-decoration:none;
+		border:1px solid black;
+		background:antiquewhite;
+		padding:5px;
+		border-radius:5px;
+}
+
+h1 {color:darkgreen;
+	font-size:50px;
+	font-weight:800;
+}
+
+h2 {color:firebrick;
+	font-size:30px;
+	font-weight:600;
+}
+
+h3 {color:darkolivegreen;
+	font-size:20px;
+	font-weight:600;
+}
+
+#distritos {border:1px solid;
+			padding:20px;
+			background:antiquewhite;
+}
+#rutas_culturales {border:1px solid;
+			padding:20px;
+			background:antiquewhite;
+}
+#contacto {border:1px solid;
+			padding:20px;
+			background:antiquewhite;
+}
+body {padding:20px;
+	  background:oldlace
+}
