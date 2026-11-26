@@ -4,6 +4,15 @@
 		<meta charset="UTF-8">
 		<title>Guía Cultural Granada</title>
 		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.css" />
+<script src="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.js"></script>
+<script>
+  fetch("https://vdk-viber-runtime-prod.bot.botpress.host/edge/bots/b4db7694-21e1-4de3-81d4-088b1c45e2f2/config")
+    .then((res) => res.json())
+    .then(({ webchat }) =>
+      VdkEdgeWebchat.mount({ ...webchat, mode: "bubble", baseUrl: "https://vdk-viber-runtime-prod.bot.botpress.host", botId: "b4db7694-21e1-4de3-81d4-088b1c45e2f2" })
+    )
+</script>
 	</head>
 	<body>
 		<header>
